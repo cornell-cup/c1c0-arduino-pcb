@@ -1,0 +1,6 @@
+Partlist exported from C:/Users/15108/Documents/EAGLE/projects/C1C0 Precise Arm Mega Breakout/Mega Breakout.sch at 3/10/2022 7:33 PM
+
+Qty Value Device        Package      Parts                                                  Description                                                          POPULARITY
+1         MEGAARDUINO_1 MEGA_ARDUINO IC1                                                    The Arduino Mega is a microcontroller board based on the ATmega1280.           
+2         PINHD-1X12    1X12         DIGITAL, PWM                                           PIN HEADER                                                           28        
+10        PINHD-1X8     1X08         ANALOG, ANALOG1, J1, J2, J3, J4, J5, J6, POWER, SERIAL PIN HEADER                                                           67        

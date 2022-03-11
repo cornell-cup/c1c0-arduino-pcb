@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-03-11T00:33:47Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Mega Breakout"
+        },
+        "Owner": "Jacob Tamor <jwt95@cornell.edu>",
+        "Size": {
+            "X": 101.58,
+            "Y": 61.9
+        }
+    }
+}
