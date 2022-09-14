@@ -1312,6 +1312,7 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="45"/>
 <contactref element="IC1" pad="81"/>
 <contactref element="IC1" pad="82"/>
+<wire x1="73.66" y1="21.59" x2="88.9" y2="21.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+VIN">
 <wire x1="30.226" y1="10.668" x2="38.862" y2="10.668" width="0.1524" layer="1"/>

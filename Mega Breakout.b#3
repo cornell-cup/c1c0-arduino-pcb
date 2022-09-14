@@ -132,7 +132,7 @@ MISO-50
 MOSI-51
 SCK-52
 GND</text>
-<text x="67.818" y="10.668" size="1.27" layer="21" distance="150" align="center">ANALOG</text>
+<text x="66.548" y="10.668" size="1.27" layer="21" distance="150" align="center">ANALOG</text>
 <text x="82.55" y="13.97" size="1.016" layer="21" distance="150" rot="R90" align="center-left">A8
 A9
 A10
@@ -141,7 +141,7 @@ A12
 A13
 A14
 A15</text>
-<text x="50.546" y="13.97" size="1.016" layer="21" distance="150" rot="R270" align="center-right">A0
+<text x="50.292" y="13.97" size="1.016" layer="21" distance="150" rot="R270" align="center-right">A0
 A1
 A2
 A3
@@ -149,7 +149,7 @@ A4
 A5
 A6
 A7</text>
-<text x="21.59" y="6.35" size="1.016" layer="21" distance="150" rot="R90" align="center-right">RESET
+<text x="21.59" y="13.97" size="1.016" layer="21" distance="150" rot="R90" align="center-left">RESET
 +3V3
 +5V
 +5V
@@ -190,7 +190,7 @@ RX1-19
 TX0-1
 RX0-0</text>
 <text x="8.128" y="46.228" size="0.8128" layer="21" distance="225" rot="R180" align="center-right">JACOB TAMOR</text>
-<text x="8.128" y="44.704" size="1.016" layer="21" rot="R180" align="center-right">CORNELL CUP ROBOTICS</text>
+<text x="8.128" y="47.752" size="1.27" layer="21" rot="R180" align="center-right">CORNELL CUP ROBOTICS</text>
 <text x="7.62" y="59.182" size="1.27" layer="21" rot="R90" align="center">PWM</text>
 <text x="43.942" y="58.166" size="1.27" layer="21" rot="R90" align="center">DIGITAL</text>
 <text x="85.09" y="58.166" size="1.27" layer="21" rot="R90" align="center">SERIAL</text>
@@ -1274,9 +1274,9 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="67" x="50.292" y="10.668" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="40.132" y="7.493" size="1.27" layer="27"/>
 </element>
-<element name="POWER" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X08" package3d_urn="urn:adsk.eagle:package:22409/2" value="" x="21.59" y="10.16" smashed="yes">
-<attribute name="POPULARITY" value="67" x="21.59" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="11.43" y="6.985" size="1.27" layer="27"/>
+<element name="POWER" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X08" package3d_urn="urn:adsk.eagle:package:22409/2" value="" x="21.336" y="10.668" smashed="yes">
+<attribute name="POPULARITY" value="67" x="21.336" y="10.668" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="11.176" y="7.493" size="1.27" layer="27"/>
 </element>
 <element name="SERIAL" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X08" package3d_urn="urn:adsk.eagle:package:22409/2" value="" x="97.028" y="59.182" smashed="yes">
 <attribute name="POPULARITY" value="67" x="97.028" y="59.182" size="1.778" layer="27" display="off"/>
@@ -1314,10 +1314,10 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="82"/>
 </signal>
 <signal name="+VIN">
-<wire x1="30.48" y1="10.16" x2="39.37" y2="10.16" width="0.1524" layer="1"/>
+<wire x1="30.226" y1="10.668" x2="38.862" y2="10.668" width="0.1524" layer="1"/>
 <wire x1="45.212" y1="4.318" x2="50.292" y2="4.318" width="0.1524" layer="1"/>
 <wire x1="50.292" y1="4.318" x2="52.07" y2="2.54" width="0.1524" layer="1"/>
-<wire x1="39.37" y1="10.16" x2="45.212" y2="4.318" width="0.1524" layer="1"/>
+<wire x1="38.862" y1="10.668" x2="45.212" y2="4.318" width="0.1524" layer="1"/>
 <contactref element="POWER" pad="8"/>
 <contactref element="IC1" pad="6"/>
 </signal>
@@ -1391,16 +1391,16 @@ design rules under a new name.</description>
 <wire x1="58.42" y1="39.37" x2="43.18" y2="39.37" width="0.3048" layer="1"/>
 <wire x1="43.18" y1="39.37" x2="27.94" y2="39.37" width="0.3048" layer="1"/>
 <wire x1="27.94" y1="39.37" x2="12.7" y2="39.37" width="0.3048" layer="1"/>
-<wire x1="17.78" y1="10.16" x2="20.32" y2="10.16" width="0.3048" layer="1"/>
-<wire x1="21.209" y1="7.493" x2="20.32" y2="8.382" width="0.3048" layer="1"/>
-<wire x1="20.32" y1="10.16" x2="20.32" y2="8.382" width="0.3048" layer="1"/>
+<wire x1="17.526" y1="10.668" x2="20.066" y2="10.668" width="0.3048" layer="1"/>
+<wire x1="21.209" y1="7.493" x2="20.066" y2="8.636" width="0.3048" layer="1"/>
+<wire x1="20.066" y1="10.668" x2="20.066" y2="8.636" width="0.3048" layer="1"/>
 <wire x1="21.209" y1="7.493" x2="41.275" y2="7.493" width="0.3048" layer="1"/>
 <wire x1="44.45" y1="2.54" x2="44.45" y2="4.318" width="0.3048" layer="1"/>
 <wire x1="44.45" y1="4.318" x2="41.275" y2="7.493" width="0.3048" layer="1"/>
 <wire x1="12.7" y1="39.1006875" x2="12.7" y2="39.37" width="0.3048" layer="1"/>
 <wire x1="10.8712" y1="37.2718875" x2="12.7" y2="39.1006875" width="0.3048" layer="1"/>
-<wire x1="17.78" y1="10.16" x2="10.8712" y2="17.0688" width="0.3048" layer="1"/>
-<wire x1="10.8712" y1="17.0688" x2="10.8712" y2="37.2718875" width="0.3048" layer="1"/>
+<wire x1="17.526" y1="10.668" x2="10.8712" y2="17.3228" width="0.3048" layer="1"/>
+<wire x1="10.8712" y1="17.3228" x2="10.8712" y2="37.2718875" width="0.3048" layer="1"/>
 </signal>
 <signal name="CS1-47">
 <wire x1="88.9" y1="36.83" x2="97.79" y2="27.94" width="0.1524" layer="1"/>
@@ -1786,15 +1786,15 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="1"/>
 <wire x1="39.37" y1="2.54" x2="39.37" y2="4.2672" width="0.1524" layer="1"/>
 <wire x1="39.37" y1="4.2672" x2="37.592" y2="6.0452" width="0.1524" layer="1"/>
-<wire x1="12.7" y1="10.16" x2="12.7" y2="8.128" width="0.1524" layer="1"/>
-<wire x1="12.7" y1="8.128" x2="14.7828" y2="6.0452" width="0.1524" layer="1"/>
+<wire x1="12.446" y1="10.668" x2="12.446" y2="8.382" width="0.1524" layer="1"/>
+<wire x1="12.446" y1="8.382" x2="14.7828" y2="6.0452" width="0.1524" layer="1"/>
 <wire x1="14.7828" y1="6.0452" x2="37.592" y2="6.0452" width="0.1524" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="POWER" pad="2"/>
 <contactref element="IC1" pad="2"/>
-<wire x1="15.24" y1="10.16" x2="15.24" y2="8.128" width="0.1524" layer="1"/>
-<wire x1="15.24" y1="8.128" x2="16.764" y2="6.604" width="0.1524" layer="1"/>
+<wire x1="14.986" y1="10.668" x2="14.986" y2="8.382" width="0.1524" layer="1"/>
+<wire x1="14.986" y1="8.382" x2="16.764" y2="6.604" width="0.1524" layer="1"/>
 <wire x1="16.764" y1="6.604" x2="39.57786875" y2="6.604" width="0.1524" layer="1"/>
 <wire x1="41.91" y1="4.27186875" x2="41.91" y2="2.54" width="0.1524" layer="1"/>
 <wire x1="39.57786875" y1="6.604" x2="41.91" y2="4.27186875" width="0.1524" layer="1"/>
@@ -1893,8 +1893,8 @@ design rules under a new name.</description>
 <signal name="AREF">
 <contactref element="POWER" pad="5"/>
 <contactref element="IC1" pad="46"/>
-<wire x1="30.48" y1="50.8" x2="22.86" y2="43.18" width="0.1524" layer="16"/>
-<wire x1="22.86" y1="43.18" x2="22.86" y2="10.16" width="0.1524" layer="16"/>
+<wire x1="30.48" y1="50.8" x2="22.606" y2="42.926" width="0.1524" layer="16"/>
+<wire x1="22.606" y1="42.926" x2="22.606" y2="10.668" width="0.1524" layer="16"/>
 </signal>
 <signal name="4">
 <contactref element="PWM" pad="3"/>
